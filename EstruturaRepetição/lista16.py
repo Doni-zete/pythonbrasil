@@ -12,3 +12,4 @@ while termo < 500:
         print(termo)
     else:
         print("O proximo valor será maior que 500")
+        print(termo)
