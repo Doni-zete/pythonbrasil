@@ -11,5 +11,4 @@ else:
     for item in range(numero2, numero1+1):
         print(item)
         soma += item
-
-print("Soma dos numeros: ",soma)
+print("Soma dos numeros: ", soma)
