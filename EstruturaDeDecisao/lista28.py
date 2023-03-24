@@ -1,5 +1,6 @@
 tipo_Carne = str(input("Digite: [f]File Duplo, [a]Alcatra, [p]Picanha: "))
-quantida_Carne = float(input("Informe a quantidade de carne comprada em [kg]: "))
+quantida_Carne = float(
+    input("Informe a quantidade de carne comprada em [kg]: "))
 forma_pagamento = int(input(
     "Digite a forma de pagamento: [1]Dinheiro [2]Cartão [3]pix: "))
 
@@ -48,7 +49,3 @@ else:
     print("Quantidade de carne em kg: ", quantida_Carne)
     print("Tipo de pagamento: ", forma_pagamento)
     print("Preço final: R$", total)
-
-
-
-
